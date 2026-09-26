@@ -1,0 +1,12 @@
+{
+  "name": "n8n-docs",
+  "version": "1.0.0",
+  "description": "Documentation for n8n, a workflow automation platform.",
+  "private": true,
+  "scripts": {
+    "build": "mkdocs build"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
+  }
+}
