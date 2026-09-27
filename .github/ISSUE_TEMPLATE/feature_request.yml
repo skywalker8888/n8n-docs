@@ -1,0 +1,27 @@
+name: Feature Request
+description: Suggest an improvement to the n8n documentation.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What docs gap or improvement are you suggesting?
+      description: Describe the use case or missing information.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe what you'd like to see added or changed.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Relevant page URL (if applicable)
+      placeholder: "https://docs.n8n.io/..."
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
